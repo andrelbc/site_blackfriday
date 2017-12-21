@@ -1,0 +1,139 @@
+@charset;
+
+.destaques ul {
+    margin-top: 3%;
+    width: 80%;
+}
+.destaques {
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.album-fotos {
+    list-style: none;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.album-fotos ul {
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.album-fotos li {
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+
+.album-fotos li {
+    border: 5px solid #ffffff;
+}
+.album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+.album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transition: scale(1.5);
+}
+
+.album-fotos li:hover{
+    transition-property: scale(1.5);
+    transition: scale(1.5);
+}
+
+.album-fotos li:hover span {
+    opacity: 1;
+}
+
+.album-fotos .foto01 {
+    background: url('../img/logitech_g402.jpg');
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto01:hover {
+    background-position: 40% 40%;
+    background-size: 350px 350px;
+}
+
+.album-fotos .foto02 {
+    background: url('../img/pixel2.jpg');
+    background-position: 50% 50%;
+    background-size: 350px 200px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto02:hover {
+    background-position: 40% 40%;
+    background-size: 400px 250px;
+}
+
+.album-fotos .foto03 {
+    background: url('../img/AKG-K712-PRO.jpg');
+    background-position: 50% 50%;
+    background-size: 350px 200px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto03:hover {
+    background-position: 40% 40%;
+    background-size: 400px 250px;
+}
+
+.album-fotos .foto04 {
+    background: url('../img/alienware25.jpg');
+    background-position: 50% 50%;
+    background-size: 350px 200px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto04:hover {
+    background-position: 40% 40%;
+    background-size: 400px 250px;
+}
+
+@media (max-width: 767px) {
+  .album-fotos li {
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .album-fotos li span {
+      opacity: 0;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
+      background-color: rgba(0, 0, 0, .3);
+      font-size: 9pt;
+      line-height: 160px;
+      padding: 5px;
+  }
+}

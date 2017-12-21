@@ -1,0 +1,144 @@
+@charset;
+
+.livros ul {
+    margin-top: 5%;
+    width: 100%;
+}
+.livros {
+	list-style: none;
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.album-fotos {
+	list-style: none;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.album-fotos ul {
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+
+.album-fotos li {
+	border: 5px solid #ffffff;
+}
+.album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+.album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transition: scale(1.5);
+}
+
+.album-fotos li:hover{
+    transition-property: scale(1.5);
+	transition: scale(1.5);
+}
+
+.album-fotos li:hover span {
+    opacity: 1;
+}
+
+.album-fotos .foto01 {
+    background: url('../img/silmarillion.jpg');
+    background-position: 50% 50%;
+    background-size: 300px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto01:hover {
+    background-position: 50% 50%;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto02 {
+    background: url('../img/contosinacabados.jpg');
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto02:hover {
+    background-position: 0 0;
+    background-size: 200px 200px;
+}
+
+.album-fotos .foto03 {
+    background: url('../img/mares.jpg');
+    background-position: 50% 50%;
+    background-size: 300px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto03:hover {
+    background-position: 50% 50%;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto04 {
+    background: url('../img/turin.jpg');
+    background-position: 50% 50%;
+    background-size: 300px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto04:hover {
+    background-position: 50% 50%;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto05 {
+    background: url('../img/acasadevidro.jpg');
+    background-position: 50% 50%;
+    background-size: 300px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto05:hover {
+    background-position: 50% 50%;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
+
+.album-fotos .foto06 {
+    background: url('../img/witcher.png');
+    background-position: 50% 50%;
+    background-size: 300px 400px;
+    background-color: #ffffff;
+}
+
+.album-fotos .foto06:hover {
+    background-position: 50% 50%;
+    background-size: 150px 200px;
+    background-repeat: no-repeat;
+}
